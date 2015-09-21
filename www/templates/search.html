@@ -1,0 +1,53 @@
+<ion-view view-title="Tip Calculator">
+  <ion-content class="bg-page">
+    <div class="row">
+      <div class="col">
+        <label class="item item-input">
+          <input type="text" placeholder="Amount" ng-model="modelGUI.amount">
+        </label>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <button class="button button-block button-positive" ng-click="calculateTip()">Calculate tip</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-50 text-center">
+        <label>10% : </label>
+      </div>
+      <div class="col-50">
+        {{ 0 }}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-50 text-center">
+        <label>15% : </label>
+      </div>
+      <div class="col-50">
+        {{ 0 }}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-50 text-center">
+        <label>18% : </label>
+      </div>
+      <div class="col-50">
+        {{ 0 }}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-50 text-center">
+        <label>20% : </label>
+      </div>
+      <div class="col-50">
+        {{ 0 }}
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

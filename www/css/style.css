@@ -1,0 +1,17 @@
+/* Empty. Add your own CSS if you like */
+
+.bg-page {
+    background-color: #11c1f3!important;
+}
+
+.img-logo {
+    width: 30%;
+    height: 30%;
+}
+
+.card, .list-inset {
+    overflow: hidden;
+    margin: 20px 10px 5px;
+    border-radius: 2px;
+    background-color: #fff;
+}

@@ -1,0 +1,30 @@
+<ion-view view-title="Login">
+  <ion-content class="bg-page">
+    <div class="row">
+      <div class="col text-center">
+        <img src="img/app-logo.png" class="img-logo" />
+      </div>
+    </div>
+
+    <div class="list list-inset">
+      <label class="item item-input">
+        <input type="text" placeholder="Username" ng-model="modelGUI.username">
+      </label>
+      <label class="item item-input">
+        <input type="password" placeholder="Password" ng-model="modelGUI.password">
+      </label>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <button class="button button-block button-positive" ng-click="loginUser()">Login</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <button class="button button-block button-energized" ng-click="goToRegisterPage()">Register</button>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
